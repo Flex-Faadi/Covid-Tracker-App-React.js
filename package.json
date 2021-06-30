@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Flex-Faadi.github.io/Covid-Tracker-App-React.js",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,7 @@
     "bootstrap": "^4.6.0",
     "chart.js": "^3.4.0",
     "classnames": "^2.3.1",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-chartjs-2": "^3.0.3",
@@ -23,6 +25,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -15,6 +15,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
   }, []);
 
   const lineChart = dailyData.length ? (
+    <>
     <Line
       data={{
         labels: dailyData.map(({ date }) => date),
@@ -41,6 +42,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
         },
       }}
     />
+    </>
   ) : null;
 
   const BarChart = confirmed ? (
@@ -68,5 +70,6 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
   return (
     <div className={styles.container}>{country ? BarChart : lineChart}</div>
   );
+    
 };
 export default Chart;
