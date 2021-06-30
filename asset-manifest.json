@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Covid-Tracker-App-React.js/static/css/main.cb38623e.chunk.css",
+    "main.js": "/Covid-Tracker-App-React.js/static/js/main.7da42e36.chunk.js",
+    "main.js.map": "/Covid-Tracker-App-React.js/static/js/main.7da42e36.chunk.js.map",
+    "runtime-main.js": "/Covid-Tracker-App-React.js/static/js/runtime-main.82054931.js",
+    "runtime-main.js.map": "/Covid-Tracker-App-React.js/static/js/runtime-main.82054931.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/Covid-Tracker-App-React.js/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.69c0aac7.chunk.js": "/Covid-Tracker-App-React.js/static/js/2.69c0aac7.chunk.js",
+    "static/js/2.69c0aac7.chunk.js.map": "/Covid-Tracker-App-React.js/static/js/2.69c0aac7.chunk.js.map",
+    "static/js/3.2f5a20d7.chunk.js": "/Covid-Tracker-App-React.js/static/js/3.2f5a20d7.chunk.js",
+    "static/js/3.2f5a20d7.chunk.js.map": "/Covid-Tracker-App-React.js/static/js/3.2f5a20d7.chunk.js.map",
+    "index.html": "/Covid-Tracker-App-React.js/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/Covid-Tracker-App-React.js/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.cb38623e.chunk.css.map": "/Covid-Tracker-App-React.js/static/css/main.cb38623e.chunk.css.map",
+    "static/js/2.69c0aac7.chunk.js.LICENSE.txt": "/Covid-Tracker-App-React.js/static/js/2.69c0aac7.chunk.js.LICENSE.txt",
+    "static/media/Covid19Tracker.53e44b24.png": "/Covid-Tracker-App-React.js/static/media/Covid19Tracker.53e44b24.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82054931.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.69c0aac7.chunk.js",
+    "static/css/main.cb38623e.chunk.css",
+    "static/js/main.7da42e36.chunk.js"
+  ]
+}
