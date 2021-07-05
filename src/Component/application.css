@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+*{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+}
+
 /* class applies to select element itself, not a wrapper element */
 .select-css {
     display: block;
@@ -69,8 +78,15 @@
   .select-css:disabled:hover, .select-css[aria-disabled=true] {
     border-color: #aaa;
   }
-  
-  
-  body {
-    margin: 2rem;
+
+  body{
+    height: 100vh;
   }
+
+
+
+@media only screen and (max-width: 770px) {  
+    tr th{
+        font-size: 12px;
+    }
+  } 

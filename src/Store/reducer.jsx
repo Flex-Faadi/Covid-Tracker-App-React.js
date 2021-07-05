@@ -1,10 +1,29 @@
-import { fetchData } from "../api";
-const data=  fetchData();
 const INITIAL_STATE = {
-    data:{data}
-}
-const Reducer = (state = INITIAL_STATE) => {
-return state;
+    data:[],
+    country:[],
+    selectCountry:''
 }
 
-export default Reducer;
+const reducer = (state = INITIAL_STATE,action) => {
+    switch(action.type){
+        case "COVID19DATA":
+            return({
+                ...state,
+                data:action.data
+            })
+        case "COUNTRYLIST":
+           return ({
+                ...state,
+                country:action.country
+            })
+        case "SELECTCOUNTRY":
+            return ({
+                ...state,
+                selectCountry:action.selectCountry
+            })    
+        default:
+            return state
+    }
+}
+
+export default reducer;
