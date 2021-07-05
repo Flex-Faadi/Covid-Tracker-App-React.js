@@ -5,6 +5,7 @@
     font-family: 'Comfortaa', cursive;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* class applies to select element itself, not a wrapper element */
@@ -78,15 +79,50 @@
   .select-css:disabled:hover, .select-css[aria-disabled=true] {
     border-color: #aaa;
   }
-
-  body{
-    height: 100vh;
+body{
+  background-color:#F1F1F1;
+}
+  .chartDiv{
+    display: flex;  
+    justify-content: center;  
+    width: 50%; 
+  }
+  
+  footer p,a{
+    font-size: 20px;
+  }
+  .CovidImg{
+    margin-top: 6vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 400px; */
+  }
+  .CovidImg img{
+    width: 30%;
   }
 
+  .loaderDiv{
+    height: 100vh;
+  }
 
 
 @media only screen and (max-width: 770px) {  
     tr th{
         font-size: 12px;
+    }
+    .chartDiv{
+      width: 100%;
+      /* height: 200px;   */
+    }
+    footer p,a{
+      font-size: 15px;
+    }
+    .CovidImg img{
+      width: 80%;
+    }
+    header h2{
+      padding: 10px 0px;
+      font-size: 25px;
     }
   } 

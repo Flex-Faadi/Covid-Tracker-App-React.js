@@ -1,7 +1,7 @@
 const INITIAL_STATE = {
     data:[],
     country:[],
-    selectCountry:''
+    selectCountry:"Afghanistan"
 }
 
 const reducer = (state = INITIAL_STATE,action) => {

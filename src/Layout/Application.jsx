@@ -1,12 +1,28 @@
-import React from "react";
-import {Table,CountryList,Header,Footer} from "../Component/Index";
+import React,{useState} from "react";
+import {
+  Table,
+  CountryList,
+  Header,
+  Footer,
+  Graph,
+  Loader,
+} from "../Component/Index";
 function Application() {
+  const [loader, setLoader] = useState(true);
+  setTimeout(() => {
+    setLoader(false);
+  }, 2000);
   return (
     <>
-    <Header/>
+      <Header />
       <CountryList />
-      <Table />
-      {/* <Footer/> */}
+      {
+        
+          loader ? <Loader value={loader} /> :
+          <Table />
+        }
+        <Graph />
+      <Footer />
     </>
   );
 }

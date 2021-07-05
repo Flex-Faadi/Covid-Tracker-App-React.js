@@ -1,11 +1,8 @@
 import axios from "axios";
 
-const SelectCountry=sessionStorage.getItem("Selected Country")
+// const SelectCountry=sessionStorage.getItem("Selected Country")
 // console.log("country",SelectCountry)
-const GetAllData=(dispatch) => { 
-
-  const cors_allower = "https://murmuring-crag-22473.herokuapp.com/";
-  const url = `${cors_allower}https://covid19.mathdro.id/api/countries/${SelectCountry}`;
+const GetAllData=(dispatch,url) => {
 
   axios
     .get(url)
